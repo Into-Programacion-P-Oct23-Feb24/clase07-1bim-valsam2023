@@ -26,12 +26,17 @@ public class Ejemplo03 {
         int suma = 0;
         int valor_ingresado;
         
+        /*
+        Lo que esta haciendo es pedir 5 valores, que se van presentando en pantalla 
+        y al final presenta la suma de todos esos valores 
+        */
+        
         while (contador <= limite) { 
             System.out.println("Ingrese el valor a sumar");
             valor_ingresado = entrada.nextInt();
             suma = suma + valor_ingresado;
             System.out.printf("Valor ingresado %d\n", valor_ingresado);
-            contador = contador + 1;
+            //contador = contador + 1;//
         }
 
         System.out.printf("La suma final es %d\n", suma);
